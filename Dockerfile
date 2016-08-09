@@ -2,7 +2,7 @@ FROM isuper/java-oracle:jre_8
 
 LABEL Description="Ubuntu 16.04 + Java + SSHD"
 
-MAINTAINER Devis Lucato "https://github.com/dluc/ubuntu-sshd-java"
+MAINTAINER Devis Lucato "https://github.com/dluc/docker-ubuntu-java-sshd"
 
 # To use this image, you must accept the Oracle Binary Code License Agreement for Java SE
 # http://www.oracle.com/technetwork/java/javase/terms/license/index.html
