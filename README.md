@@ -7,6 +7,7 @@
 ## Usage
 
 `docker run -d --name ubuntu-java-sshd dluc/ubuntu-java-sshd`
+
 `ssh root@$(docker inspect -f '{{ .NetworkSettings.IPAddress }}' ubuntu-java-sshd)`
 
 The default password for root is `root`
